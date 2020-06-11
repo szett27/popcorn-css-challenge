@@ -1,5 +1,81 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+*{
+  font-family: sans-serif;
+}
+
+main{
+  background-color: #D4A76A;
+  box-sizing: border-box;
+}
+
+header{
+  color: #553100;
+  background-color: #FFDBAA;
+  width: 100%;
+  padding: 3%;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+}
+
+nav{
+  display:inline-block;
+  margin-left: 35%;
+
+
+}
+
+button{
+  background-color: #805215;
+  font-size: 25px;
+  align-content: center;
+  color: white;
+  border: 1px white;
+  padding: 5px;
+}
+
+h1{
+  display: inline-block;
+}
+
+.card{
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 4%;
+
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+}
+
+.cardButton{
+  width: 60%;
+  margin:10px auto;
+
+}
+
+.flights{
+  margin-left: 10%;
+  width: 25%;
+}
+
+.group{
+  margin-left: 4%;
+  width: 25%;
+
+}
+
+.discount{
+  margin-left: 4%;
+  width: 25%
+}
+
+.about{
+  width: 95%;
+  margin-left: 3%;
+}
